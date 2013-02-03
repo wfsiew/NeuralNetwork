@@ -1,9 +1,3 @@
-// AForge Library
-//
-// Copyright © Andrew Kirillov, 2006
-// andrew.kirillov@gmail.com
-//
-
 namespace AForge
 {
 	using System;

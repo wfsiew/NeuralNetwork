@@ -1,9 +1,3 @@
-// AForge Neural Net Library
-//
-// Copyright © Andrew Kirillov, 2005-2006
-// andrew.kirillov@gmail.com
-//
-
 namespace AForge.Neuro.Learning
 {
 	using System;

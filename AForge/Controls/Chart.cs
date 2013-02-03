@@ -6,6 +6,13 @@
     using System.Windows.Forms;
     using AForge;
 
+    /// <summary>
+    /// Chart control
+    /// </summary>
+    /// 
+    /// <remarks>The chart control allows to display multiple charts at time
+    /// of different types: dots, lines, connected dots.</remarks>
+    /// 
     public partial class Chart : System.Windows.Forms.Control
     {
         /// <summary>
