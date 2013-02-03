@@ -7,3 +7,4 @@ E:\vs_Projects\AForge\TimeSeries\obj\Release\TimeSeries.Properties.Resources.res
 E:\vs_Projects\AForge\TimeSeries\obj\Release\TimeSeries.csproj.GenerateResource.Cache
 E:\vs_Projects\AForge\TimeSeries\obj\Release\TimeSeries.exe
 E:\vs_Projects\AForge\TimeSeries\obj\Release\TimeSeries.pdb
+E:\vs_Projects\AForge\TimeSeries\obj\Release\TimeSeries.csprojResolveAssemblyReference.cache

@@ -28,6 +28,8 @@ namespace Approximation
         private Thread workerThread = null;
         private bool needToStop = false;
 
+        delegate void UpdateTextboxDelegate(TextBox txt, string s);
+
         public MainForm()
         {
             //
@@ -300,14 +302,11 @@ namespace Approximation
                     learningError += Math.Abs(data[j, 1] - ((network.Compute(networkInput)[0] + 0.85) / yFactor + yMin));
                 }
 
-                this.BeginInvoke(new MethodInvoker(
-                    delegate()
-                    {
-                        // set current iteration's info
-                        currentIterationBox.Text = iteration.ToString();
-                        currentErrorBox.Text = learningError.ToString("F3");
-                    }
-                ));
+                // set current iteration's info
+                UpdateTextbox(currentIterationBox, iteration.ToString());
+                //currentIterationBox.Text = iteration.ToString();
+                UpdateTextbox(currentErrorBox, learningError.ToString("F3"));
+                //currentErrorBox.Text = learningError.ToString("F3");
 
                 // increase current iteration
                 iteration++;
@@ -317,9 +316,21 @@ namespace Approximation
                     break;
             }
 
-
             // enable settings controls
             EnableControls(true);
+        }
+
+        private void UpdateTextbox(TextBox txt, string s)
+        {
+            if (txt.InvokeRequired)
+            {
+                txt.Invoke(new UpdateTextboxDelegate(UpdateTextbox), new object[] { txt, s });
+            }
+
+            else
+            {
+                txt.Text = s;
+            }
         }
     }
 }

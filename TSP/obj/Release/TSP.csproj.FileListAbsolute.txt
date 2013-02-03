@@ -7,3 +7,4 @@ E:\vs_Projects\AForge\TSP\obj\Release\TSP.Properties.Resources.resources
 E:\vs_Projects\AForge\TSP\obj\Release\TSP.csproj.GenerateResource.Cache
 E:\vs_Projects\AForge\TSP\obj\Release\TSP.exe
 E:\vs_Projects\AForge\TSP\obj\Release\TSP.pdb
+E:\vs_Projects\AForge\TSP\obj\Release\TSP.csprojResolveAssemblyReference.cache
