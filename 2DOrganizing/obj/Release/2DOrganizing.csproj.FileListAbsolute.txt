@@ -1,0 +1,10 @@
+E:\vs_Projects\AForge\2DOrganizing\bin\Release\SOMOrganizing.exe.config
+E:\vs_Projects\AForge\2DOrganizing\bin\Release\SOMOrganizing.exe
+E:\vs_Projects\AForge\2DOrganizing\bin\Release\SOMOrganizing.pdb
+E:\vs_Projects\AForge\2DOrganizing\bin\Release\AForge.dll
+E:\vs_Projects\AForge\2DOrganizing\bin\Release\AForge.pdb
+E:\vs_Projects\AForge\2DOrganizing\obj\Release\2DOrganizing.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\2DOrganizing\obj\Release\SOMOrganizing.Properties.Resources.resources
+E:\vs_Projects\AForge\2DOrganizing\obj\Release\2DOrganizing.csproj.GenerateResource.Cache
+E:\vs_Projects\AForge\2DOrganizing\obj\Release\SOMOrganizing.exe
+E:\vs_Projects\AForge\2DOrganizing\obj\Release\SOMOrganizing.pdb

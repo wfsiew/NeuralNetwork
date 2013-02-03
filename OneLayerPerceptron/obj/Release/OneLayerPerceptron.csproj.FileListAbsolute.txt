@@ -1,0 +1,10 @@
+E:\vs_Projects\AForge\OneLayerPerceptron\bin\Release\Classifier.exe.config
+E:\vs_Projects\AForge\OneLayerPerceptron\bin\Release\Classifier.exe
+E:\vs_Projects\AForge\OneLayerPerceptron\bin\Release\Classifier.pdb
+E:\vs_Projects\AForge\OneLayerPerceptron\bin\Release\AForge.dll
+E:\vs_Projects\AForge\OneLayerPerceptron\bin\Release\AForge.pdb
+E:\vs_Projects\AForge\OneLayerPerceptron\obj\Release\OneLayerPerceptron.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\OneLayerPerceptron\obj\Release\Classifier.Properties.Resources.resources
+E:\vs_Projects\AForge\OneLayerPerceptron\obj\Release\OneLayerPerceptron.csproj.GenerateResource.Cache
+E:\vs_Projects\AForge\OneLayerPerceptron\obj\Release\Classifier.exe
+E:\vs_Projects\AForge\OneLayerPerceptron\obj\Release\Classifier.pdb

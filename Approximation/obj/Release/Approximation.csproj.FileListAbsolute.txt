@@ -1,0 +1,10 @@
+E:\vs_Projects\AForge\Approximation\bin\Release\Approximation.exe.config
+E:\vs_Projects\AForge\Approximation\bin\Release\Approximation.exe
+E:\vs_Projects\AForge\Approximation\bin\Release\Approximation.pdb
+E:\vs_Projects\AForge\Approximation\bin\Release\AForge.dll
+E:\vs_Projects\AForge\Approximation\bin\Release\AForge.pdb
+E:\vs_Projects\AForge\Approximation\obj\Release\Approximation.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\Approximation\obj\Release\Approximation.Properties.Resources.resources
+E:\vs_Projects\AForge\Approximation\obj\Release\Approximation.csproj.GenerateResource.Cache
+E:\vs_Projects\AForge\Approximation\obj\Release\Approximation.exe
+E:\vs_Projects\AForge\Approximation\obj\Release\Approximation.pdb

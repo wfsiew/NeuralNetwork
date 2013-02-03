@@ -1,0 +1,10 @@
+E:\vs_Projects\AForge\Color\obj\Release\Color.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\Color\obj\Release\Color.Properties.Resources.resources
+E:\vs_Projects\AForge\Color\obj\Release\Color.csproj.GenerateResource.Cache
+E:\vs_Projects\AForge\Color\bin\Release\Color.exe.config
+E:\vs_Projects\AForge\Color\bin\Release\Color.exe
+E:\vs_Projects\AForge\Color\bin\Release\Color.pdb
+E:\vs_Projects\AForge\Color\bin\Release\AForge.dll
+E:\vs_Projects\AForge\Color\bin\Release\AForge.pdb
+E:\vs_Projects\AForge\Color\obj\Release\Color.exe
+E:\vs_Projects\AForge\Color\obj\Release\Color.pdb

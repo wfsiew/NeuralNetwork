@@ -1,0 +1,10 @@
+E:\vs_Projects\AForge\XORProblem\bin\Release\XORProblem.exe.config
+E:\vs_Projects\AForge\XORProblem\bin\Release\XORProblem.exe
+E:\vs_Projects\AForge\XORProblem\bin\Release\XORProblem.pdb
+E:\vs_Projects\AForge\XORProblem\bin\Release\AForge.dll
+E:\vs_Projects\AForge\XORProblem\bin\Release\AForge.pdb
+E:\vs_Projects\AForge\XORProblem\obj\Release\XORProblem.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\XORProblem\obj\Release\XORProblem.Properties.Resources.resources
+E:\vs_Projects\AForge\XORProblem\obj\Release\XORProblem.csproj.GenerateResource.Cache
+E:\vs_Projects\AForge\XORProblem\obj\Release\XORProblem.exe
+E:\vs_Projects\AForge\XORProblem\obj\Release\XORProblem.pdb
