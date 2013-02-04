@@ -416,7 +416,7 @@ namespace Classifier
                 for (int i = 0; i < neuronsCount; i++)
                 {
                     string neuronName = string.Format("Neuron {0}", i + 1);
-                    ListViewItem item = null;
+                    //ListViewItem item = null;
 
                     // add all weights
                     for (int j = 0; j < variables; j++)
