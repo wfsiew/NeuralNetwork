@@ -34,6 +34,11 @@ namespace Classifier
 
         private Thread workerThread = null;
         private bool needToStop = false;
+        
+        delegate void UpdateTextboxDelegate(TextBox txt, string s);
+        delegate void UpdateControlDelegate(Control c, bool e);
+        delegate void ClearListviewDelegate(ListView o);
+        delegate void UpdateListviewDelegate(ListView o, string n, string w, string s);
 
         public MainForm()
         {
@@ -222,22 +227,16 @@ namespace Classifier
         // Enable/disale controls
         private void EnableControls(bool enable)
         {
-            this.BeginInvoke(new MethodInvoker(
-                delegate()
-                {
-                    learningRateBox.Enabled = enable;
-                    alphaBox.Enabled = enable;
-                    errorLimitBox.Enabled = enable;
-                    iterationsBox.Enabled = enable;
-                    oneNeuronForTwoCheck.Enabled = ((enable) && (classesCount == 2));
-                    errorLimitCheck.Enabled = enable;
-                    saveFilesCheck.Enabled = enable;
-
-                    loadButton.Enabled = enable;
-                    startButton.Enabled = enable;
-                    stopButton.Enabled = !enable;
-                }
-            ));
+            UpdateControl(learningRateBox, enable);
+            UpdateControl(alphaBox, enable);
+            UpdateControl(errorLimitBox, enable);
+            UpdateControl(iterationsBox, enable);
+            UpdateControl(oneNeuronForTwoCheck, ((enable) && (classesCount == 2)));
+            UpdateControl(errorLimitCheck, enable);
+            UpdateControl(saveFilesCheck, enable);
+            UpdateControl(loadButton, enable);
+            UpdateControl(startButton, enable);
+            UpdateControl(stopButton, !enable);
         }
 
         // Clear current solution
@@ -396,14 +395,11 @@ namespace Classifier
                         errorsFile.WriteLine(error);
                     }
 
-                    this.BeginInvoke(new MethodInvoker(
-                        delegate()
-                        {
-                            // show current iteration & error
-                            currentIterationBox.Text = iteration.ToString();
-                            currentErrorBox.Text = error.ToString();
-                        }
-                    ));
+                    // show current iteration & error
+                    UpdateTextbox(currentIterationBox, iteration.ToString());
+                    //currentIterationBox.Text = iteration.ToString();
+                    UpdateTextbox(currentErrorBox, error.ToString());
+                    //currentErrorBox.Text = error.ToString();
 
                     iteration++;
 
@@ -414,30 +410,28 @@ namespace Classifier
                         break;
                 }
 
-                this.BeginInvoke(new MethodInvoker(
-                    delegate()
-                    {
-                        // show perceptron's weights
-                        weightsList.Items.Clear();
-                        for (int i = 0; i < neuronsCount; i++)
-                        {
-                            string neuronName = string.Format("Neuron {0}", i + 1);
-                            ListViewItem item = null;
+                // show perceptron's weights
+                ClearListview(weightsList);
+                //weightsList.Items.Clear();
+                for (int i = 0; i < neuronsCount; i++)
+                {
+                    string neuronName = string.Format("Neuron {0}", i + 1);
+                    ListViewItem item = null;
 
-                            // add all weights
-                            for (int j = 0; j < variables; j++)
-                            {
-                                item = weightsList.Items.Add(neuronName);
-                                item.SubItems.Add(string.Format("Weight {0}", j + 1));
-                                item.SubItems.Add(layer[i][0].ToString("F6"));
-                            }
-                            // threshold
-                            item = weightsList.Items.Add(neuronName);
-                            item.SubItems.Add("Threshold");
-                            item.SubItems.Add(layer[i].Threshold.ToString("F6"));
-                        }
+                    // add all weights
+                    for (int j = 0; j < variables; j++)
+                    {
+                        UpdateListview(weightsList, neuronName, string.Format("Weight {0}", j + 1), layer[i][0].ToString("F6"));
+                        //item = weightsList.Items.Add(neuronName);
+                        //item.SubItems.Add(string.Format("Weight {0}", j + 1));
+                        //item.SubItems.Add(layer[i][0].ToString("F6"));
                     }
-                ));
+                    // threshold
+                    UpdateListview(weightsList, neuronName, "Threshold", layer[i].Threshold.ToString("F6"));
+                    //item = weightsList.Items.Add(neuronName);
+                    //item.SubItems.Add("Threshold");
+                    //item.SubItems.Add(layer[i].Threshold.ToString("F6"));
+                }
 
                 // show error's dynamics
                 double[,] errors = new double[errorsList.Count, 2];
@@ -466,6 +460,62 @@ namespace Classifier
 
             // enable settings controls
             EnableControls(true);
+        }
+        
+        private void UpdateTextbox(TextBox txt, string s)
+        {
+            if (txt.InvokeRequired)
+            {
+                txt.Invoke(new UpdateTextboxDelegate(UpdateTextbox), new object[] { txt, s });
+            }
+
+            else
+            {
+                txt.Text = s;
+            }
+        }
+        
+        private void UpdateControl(Control c, bool e)
+        {
+            if (c.InvokeRequired)
+            {
+                c.Invoke(new UpdateControlDelegate(UpdateControl), new object[] { c, e });
+            }
+            
+            else
+            {
+                c.Enabled = e;
+            }
+        }
+        
+        private void ClearListview(ListView o)
+        {
+            if (o.InvokeRequired)
+            {
+                o.Invoke(new ClearListviewDelegate(ClearListview), new object[] { o });
+            }
+            
+            else
+            {
+                o.Items.Clear();
+            }
+        }
+        
+        private void UpdateListview(ListView o, string n, string w, string s)
+        {
+            ListViewItem item = null;
+            
+            if (o.InvokeRequired)
+            {
+                o.Invoke(new UpdateListviewDelegate(UpdateListview), new object[] { o, n, w, s });
+            }
+            
+            else
+            {
+                item = weightsList.Items.Add(n);
+                item.SubItems.Add(string.Format("Weight {0}", j));
+                item.SubItems.Add(s);
+            }
         }
     }
 }

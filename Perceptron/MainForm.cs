@@ -26,6 +26,10 @@ namespace Classifier
 
         private Thread workerThread = null;
         private bool needToStop = false;
+        
+        delegate void UpdateTextboxDelegate(TextBox txt, string s);
+        delegate void UpdateControlDelegate(Control c, bool e);
+        delegate void ClearListviewDelegate(ListView o);
 
         public MainForm()
         {
@@ -239,16 +243,11 @@ namespace Classifier
         // Enable/disale controls
         private void EnableControls(bool enable)
         {
-            this.BeginInvoke(new MethodInvoker(
-                delegate()
-                {
-                    learningRateBox.Enabled = enable;
-                    loadButton.Enabled = enable;
-                    startButton.Enabled = enable;
-                    saveFilesCheck.Enabled = enable;
-                    stopButton.Enabled = !enable;
-                }
-            ));
+            UpdateControl(learningRateBox, enable);
+            UpdateControl(loadButton, enable);
+            UpdateControl(startButton, enable);
+            UpdateControl(saveFilesCheck, enable);
+            UpdateControl(stopButton, !enable);
         }
 
         // Clear current solution
@@ -358,13 +357,9 @@ namespace Classifier
                     double error = teacher.RunEpoch(input, output);
                     errorsList.Add(error);
 
-                    this.BeginInvoke(new MethodInvoker(
-                        delegate()
-                        {
-                            // show current iteration
-                            iterationsBox.Text = iteration.ToString();
-                        }
-                    ));
+                    // show current iteration
+                    UpdateTextbox(iterationsBox, iteration.ToString());
+                    //iterationsBox.Text = iteration.ToString();
 
                     // save current error
                     if (errorsFile != null)
@@ -393,20 +388,18 @@ namespace Classifier
                     iteration++;
                 }
 
-                this.BeginInvoke(new MethodInvoker(
-                    delegate()
-                    {
-                        // show perceptron's weights
-                        weightsList.Items.Clear();
-                        for (int i = 0; i < variables; i++)
-                        {
-                            weightsList.Items.Add(string.Format("Weight {0}", i + 1));
-                            weightsList.Items[i].SubItems.Add(neuron[i].ToString("F6"));
-                        }
-                        weightsList.Items.Add("Threshold");
-                        weightsList.Items[variables].SubItems.Add(neuron.Threshold.ToString("F6"));
-                    }
-                ));
+                // show perceptron's weights
+                ClearListview(weightsList);
+                //weightsList.Items.Clear();
+                for (int i = 0; i < variables; i++)
+                {
+                    UpdateListview(weightsList, string.Format("Weight {0}", i + 1), i, neuron[i].ToString("F6"));
+                    //weightsList.Items.Add(string.Format("Weight {0}", i + 1));
+                    //weightsList.Items[i].SubItems.Add(neuron[i].ToString("F6"));
+                }
+                UpdateListview(weightsList, "Threshold", variables, neuron.Threshold.ToString("F6"));
+                //weightsList.Items.Add("Threshold");
+                //weightsList.Items[variables].SubItems.Add(neuron.Threshold.ToString("F6"));
 
                 // show error's dynamics
                 double[,] errors = new double[errorsList.Count, 2];
@@ -436,6 +429,59 @@ namespace Classifier
 
             // enable settings controls
             EnableControls(true);
+        }
+        
+        private void UpdateTextbox(TextBox txt, string s)
+        {
+            if (txt.InvokeRequired)
+            {
+                txt.Invoke(new UpdateTextboxDelegate(UpdateTextbox), new object[] { txt, s });
+            }
+
+            else
+            {
+                txt.Text = s;
+            }
+        }
+        
+        private void UpdateControl(Control c, bool e)
+        {
+            if (c.InvokeRequired)
+            {
+                c.Invoke(new UpdateControlDelegate(UpdateControl), new object[] { c, e });
+            }
+            
+            else
+            {
+                c.Enabled = e;
+            }
+        }
+        
+        private void ClearListview(ListView o)
+        {
+            if (o.InvokeRequired)
+            {
+                o.Invoke(new ClearListviewDelegate(ClearListview), new object[] { o });
+            }
+            
+            else
+            {
+                o.Items.Clear();
+            }
+        }
+        
+        private void UpdateListview(ListView o, string w, int i, string s)
+        {
+            if (o.InvokeRequired)
+            {
+                o.InvokeRequired(new UpdateListviewDelegate(UpdateListview), new object[] { o, w, i, s });
+            }
+            
+            else
+            {
+                o.Items.Add(w);
+                o.Items[i].SubItems.Add(s);
+            }
         }
     }
 }

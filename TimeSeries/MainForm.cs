@@ -31,6 +31,10 @@ namespace TimeSeries
 
         private double[,] windowDelimiter = new double[2, 2] { { 0, 0 }, { 0, 0 } };
         private double[,] predictionDelimiter = new double[2, 2] { { 0, 0 }, { 0, 0 } };
+        
+        delegate void UpdateTextboxDelegate(TextBox txt, string s);
+        delegate void UpdateControlDelegate(Control c, bool e);
+        delegate void UpdateListViewDelegate(ListView o, int i, string s);
 
         public MainForm()
         {
@@ -161,21 +165,15 @@ namespace TimeSeries
         // Enable/disable controls
         private void EnableControls(bool enable)
         {
-            this.BeginInvoke(new MethodInvoker(
-                delegate()
-                {
-                    loadDataButton.Enabled = enable;
-                    learningRateBox.Enabled = enable;
-                    momentumBox.Enabled = enable;
-                    alphaBox.Enabled = enable;
-                    windowSizeBox.Enabled = enable;
-                    predictionSizeBox.Enabled = enable;
-                    iterationsBox.Enabled = enable;
-
-                    startButton.Enabled = enable;
-                    stopButton.Enabled = !enable;
-                }
-            ));
+            UpdateControl(loadDataButton, enable);
+            UpdateControl(learningRateBox, enable);
+            UpdateControl(momentumBox, enable);
+            UpdateControl(alphaBox, enable);
+            UpdateControl(windowSizeBox, enable);
+            UpdateControl(predictionSizeBox, enable);
+            UpdateControl(iterationsBox, enable);
+            UpdateControl(startButton, enable);
+            UpdateControl(stopButton, !enable);
         }
 
         // On window size changed
@@ -385,15 +383,13 @@ namespace TimeSeries
                 // update solution on the chart
                 chart.UpdateDataSeries("solution", solution);
 
-                this.BeginInvoke(new MethodInvoker(
-                    delegate()
-                    {
-                        // set current iteration's info
-                        currentIterationBox.Text = iteration.ToString();
-                        currentLearningErrorBox.Text = learningError.ToString("F3");
-                        currentPredictionErrorBox.Text = predictionError.ToString("F3");
-                    }
-                ));
+                // set current iteration's info
+                UpdateTextbox(currentIterationBox, iteration.ToString());
+                //currentIterationBox.Text = iteration.ToString();
+                UpdateTextbox(currentLearningErrorBox, learningError.ToString("F3"));
+                //currentLearningErrorBox.Text = learningError.ToString("F3");
+                UpdateTextbox(currentPredictionErrorBox, predictionError.ToString("F3"));
+                //currentPredictionErrorBox.Text = predictionError.ToString("F3");
 
                 // increase current iteration
                 iteration++;
@@ -405,18 +401,53 @@ namespace TimeSeries
 
             // show new solution
             
-            this.BeginInvoke(new MethodInvoker(
-                delegate()
-                {
-                    for (int j = windowSize, k = 0, n = data.Length; j < n; j++, k++)
-                    {
-                        dataList.Items[j].SubItems.Add(solution[k, 1].ToString());
-                    }
-                }
-            ));
+            for (int j = windowSize, k = 0, n = data.Length; j < n; j++, k++)
+            {
+                UpdateDataListView(dataList, j, solution[k, 1].ToString());
+                //dataList.Items[j].SubItems.Add(solution[k, 1].ToString());
+            }
 
             // enable settings controls
             EnableControls(true);
+        }
+        
+        private void UpdateTextbox(TextBox txt, string s)
+        {
+            if (txt.InvokeRequired)
+            {
+                txt.Invoke(new UpdateTextboxDelegate(UpdateTextbox), new object[] { txt, s });
+            }
+
+            else
+            {
+                txt.Text = s;
+            }
+        }
+        
+        private void UpdateControl(Control c, bool e)
+        {
+            if (c.InvokeRequired)
+            {
+                c.Invoke(new UpdateControlDelegate(UpdateControl), new object[] { c, e });
+            }
+            
+            else
+            {
+                c.Enabled = e;
+            }
+        }
+        
+        private void UpdateListView(ListView o, int i, string s)
+        {
+            if (o.InvokeRequired)
+            {
+                o.Invoke(new UpdateListViewDelegate(UpdateListView), new object[] { o, i, s });
+            }
+            
+            else
+            {
+                o.Items[i].SubItems.Add(s);
+            }
         }
     }
 }

@@ -35,6 +35,11 @@ namespace Classifier
 																	 Color.Violet,	Color.Brown,
 																	 Color.Black,	Color.Pink,
 																	 Color.Olive,	Color.Navy };
+                                   
+        delegate void UpdateTextboxDelegate(TextBox txt, string s);
+        delegate void UpdateControlDelegate(Control c, bool e);
+        delegate void ClearListviewDelegate(ListView o);
+        delegate void UpdateListviewDelegate(ListView o, string n, string w, string s);
 
         public MainForm()
         {
@@ -212,16 +217,11 @@ namespace Classifier
         // Enable/disale controls
         private void EnableControls(bool enable)
         {
-            this.BeginInvoke(new MethodInvoker(
-                delegate()
-                {
-                    learningRateBox.Enabled = enable;
-                    loadButton.Enabled = enable;
-                    startButton.Enabled = enable;
-                    saveFilesCheck.Enabled = enable;
-                    stopButton.Enabled = !enable;
-                }
-            ));
+            UpdateControl(learningRateBox, enable);
+            UpdateControl(loadButton, enable);
+            UpdateControl(startButton, enable);
+            UpdateControl(saveFilesCheck, enable);
+            UpdateControl(stopButton, !enable);
         }
 
         // On "Start" button click
@@ -331,13 +331,9 @@ namespace Classifier
                         errorsFile.WriteLine(error);
                     }
 
-                    this.BeginInvoke(new MethodInvoker(
-                        delegate()
-                        {
-                            // show current iteration
-                            iterationsBox.Text = iteration.ToString();
-                        }
-                    ));
+                    // show current iteration
+                    UpdateTextbox(iterationsBox, iteration.ToString());
+                    //iterationsBox.Text = iteration.ToString();
 
                     // stop if no error
                     if (error == 0)
@@ -361,30 +357,29 @@ namespace Classifier
                     iteration++;
                 }
 
-                this.BeginInvoke(new MethodInvoker(
-                    delegate()
-                    {
-                        // show perceptron's weights
-                        weightsList.Items.Clear();
-                        for (int i = 0; i < classesCount; i++)
-                        {
-                            string neuronName = string.Format("Neuron {0}", i + 1);
+                // show perceptron's weights
+                ClearListview(weightsList);
+                //weightsList.Items.Clear();
+                for (int i = 0; i < classesCount; i++)
+                {
+                    string neuronName = string.Format("Neuron {0}", i + 1);
 
-                            // weight 0
-                            ListViewItem item = weightsList.Items.Add(neuronName);
-                            item.SubItems.Add("Weight 1");
-                            item.SubItems.Add(layer[i][0].ToString("F6"));
-                            // weight 1
-                            item = weightsList.Items.Add(neuronName);
-                            item.SubItems.Add("Weight 2");
-                            item.SubItems.Add(layer[i][1].ToString("F6"));
-                            // threshold
-                            item = weightsList.Items.Add(neuronName);
-                            item.SubItems.Add("Threshold");
-                            item.SubItems.Add(layer[i].Threshold.ToString("F6"));
-                        }
-                    }
-                ));
+                    // weight 0
+                    UpdateListview(weightsList, neuronName, "Weight 1", layer[i][0].ToString("F6"));
+                    //ListViewItem item = weightsList.Items.Add(neuronName);
+                    //item.SubItems.Add("Weight 1");
+                    //item.SubItems.Add(layer[i][0].ToString("F6"));
+                    // weight 1
+                    UpdateListview(weightsList, neuronName, "Weight 2", layer[i][1].ToString("F6"));
+                    //item = weightsList.Items.Add(neuronName);
+                    //item.SubItems.Add("Weight 2");
+                    //item.SubItems.Add(layer[i][1].ToString("F6"));
+                    // threshold
+                    UpdateListview(weightsList, neuronName, "Threshold", layer[i].Threshold.ToString("F6"));
+                    //item = weightsList.Items.Add(neuronName);
+                    //item.SubItems.Add("Threshold");
+                    //item.SubItems.Add(layer[i].Threshold.ToString("F6"));
+                }
 
                 // show error's dynamics
                 double[,] errors = new double[errorsList.Count, 2];
@@ -418,6 +413,62 @@ namespace Classifier
         private void MainForm_Load(object sender, System.EventArgs e)
         {
 
+        }
+        
+        private void UpdateTextbox(TextBox txt, string s)
+        {
+            if (txt.InvokeRequired)
+            {
+                txt.Invoke(new UpdateTextboxDelegate(UpdateTextbox), new object[] { txt, s });
+            }
+
+            else
+            {
+                txt.Text = s;
+            }
+        }
+        
+        private void UpdateControl(Control c, bool e)
+        {
+            if (c.InvokeRequired)
+            {
+                c.Invoke(new UpdateControlDelegate(UpdateControl), new object[] { c, e });
+            }
+            
+            else
+            {
+                c.Enabled = e;
+            }
+        }
+        
+        private void ClearListview(ListView o)
+        {
+            if (o.InvokeRequired)
+            {
+                o.Invoke(new ClearListviewDelegate(ClearListview), new object[] { o });
+            }
+            
+            else
+            {
+                o.Items.Clear();
+            }
+        }
+        
+        private void UpdateListview(ListView o, string n, string w, string s)
+        {
+            ListViewItem item = null;
+            
+            if (o.InvokeRequired)
+            {
+                o.Invoke(new UpdateListviewDelegate(UpdateListview), new object[] { o, n, w, s });
+            }
+            
+            else
+            {
+                item = weightsList.Items.Add(n);
+                item.SubItems.Add(w);
+                item.SubItems.Add(s);
+            }
         }
     }
 }

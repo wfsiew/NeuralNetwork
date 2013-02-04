@@ -26,6 +26,9 @@ namespace TSP
 
         private Thread workerThread = null;
         private bool needToStop = false;
+        
+        delegate void UpdateTextboxDelegate(TextBox txt, string s);
+        delegate void UpdateControlDelegate(Control c, bool e);
 
         public MainForm()
         {
@@ -107,19 +110,13 @@ namespace TSP
         // Enable/disale controls
         private void EnableControls(bool enable)
         {
-            this.BeginInvoke(new MethodInvoker(
-                delegate()
-                {
-                    neuronsBox.Enabled = enable;
-                    iterationsBox.Enabled = enable;
-                    rateBox.Enabled = enable;
-                    radiusBox.Enabled = enable;
-
-                    startButton.Enabled = enable;
-                    generateMapButton.Enabled = enable;
-                    stopButton.Enabled = !enable;
-                }
-            ));
+            UpdateControl(neuronsBox, enable);
+            UpdateControl(iterationsBox, enable);
+            UpdateControl(rateBox, enable);
+            UpdateControl(radiusBox, enable);
+            UpdateControl(startButton, enable);
+            UpdateControl(generateMapButton, enable);
+            UpdateControl(stopButton, !enable);
         }
 
         // On "Start" button click
@@ -235,13 +232,9 @@ namespace TSP
                 // increase current iteration
                 i++;
 
-                this.BeginInvoke(new MethodInvoker(
-                    delegate()
-                    {
-                        // set current iteration's info
-                        currentIterationBox.Text = i.ToString();
-                    }
-                ));
+                // set current iteration's info
+                UpdateTextbox(currentIterationBox, i.ToString());
+                //currentIterationBox.Text = i.ToString();
 
                 // stop ?
                 if (i >= iterations)
@@ -250,6 +243,32 @@ namespace TSP
 
             // enable settings controls
             EnableControls(true);
+        }
+        
+        private void UpdateTextbox(TextBox txt, string s)
+        {
+            if (txt.InvokeRequired)
+            {
+                txt.Invoke(new UpdateTextboxDelegate(UpdateTextbox), new object[] { txt, s });
+            }
+
+            else
+            {
+                txt.Text = s;
+            }
+        }
+        
+        private void UpdateControl(Control c, bool e)
+        {
+            if (c.InvokeRequired)
+            {
+                c.Invoke(new UpdateControlDelegate(UpdateControl), new object[] { c, e });
+            }
+            
+            else
+            {
+                c.Enabled = e;
+            }
         }
     }
 }

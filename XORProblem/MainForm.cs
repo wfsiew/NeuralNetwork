@@ -25,6 +25,8 @@ namespace XORProblem
 
         private Thread workerThread = null;
         private bool needToStop = false;
+        
+        delegate void UpdateTextboxDelegate(TextBox txt, string s);
 
         public MainForm()
         {
@@ -225,14 +227,11 @@ namespace XORProblem
                         errorsFile.WriteLine(error);
                     }
 
-                    this.BeginInvoke(new MethodInvoker(
-                        delegate()
-                        {
-                            // show current iteration & error
-                            currentIterationBox.Text = iteration.ToString();
-                            currentErrorBox.Text = error.ToString();
-                        }
-                    ));
+                    // show current iteration & error
+                    UpdateTextbox(currentIterationBox, iteration.ToString());
+                    //currentIterationBox.Text = iteration.ToString();
+                    UpdateTextbox(currentErrorBox, error.ToString());
+                    //currentErrorBox.Text = error.ToString();
                     
                     iteration++;
 
@@ -266,6 +265,19 @@ namespace XORProblem
 
             // enable settings controls
             EnableControls(true);
+        }
+        
+        private void UpdateTextbox(TextBox txt, string s)
+        {
+            if (txt.InvokeRequired)
+            {
+                txt.Invoke(new UpdateTextboxDelegate(UpdateTextbox), new object[] { txt, s });
+            }
+
+            else
+            {
+                txt.Text = s;
+            }
         }
     }
 }

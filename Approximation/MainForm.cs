@@ -29,6 +29,7 @@ namespace Approximation
         private bool needToStop = false;
 
         delegate void UpdateTextboxDelegate(TextBox txt, string s);
+        delegate void UpdateControlDelegate(Control c, bool e);
 
         public MainForm()
         {
@@ -147,20 +148,14 @@ namespace Approximation
         // Enable/disale controls
         private void EnableControls(bool enable)
         {
-            this.BeginInvoke(new MethodInvoker(
-                delegate()
-                {
-                    loadDataButton.Enabled = enable;
-                    learningRateBox.Enabled = enable;
-                    momentumBox.Enabled = enable;
-                    alphaBox.Enabled = enable;
-                    neuronsBox.Enabled = enable;
-                    iterationsBox.Enabled = enable;
-
-                    startButton.Enabled = enable;
-                    stopButton.Enabled = !enable;
-                }
-            ));
+            UpdateControl(loadDataButton, enable);
+            UpdateControl(learningRateBox, enable);
+            UpdateControl(momentumBox, enable);
+            UpdateControl(alphaBox, enable);
+            UpdateControl(neuronsBox, enable);
+            UpdateControl(iterationsBox, enable);
+            UpdateControl(startButton, enable);
+            UpdateControl(stopButton, !enable);
         }
 
         // On button "Start"
@@ -330,6 +325,19 @@ namespace Approximation
             else
             {
                 txt.Text = s;
+            }
+        }
+        
+        private void UpdateControl(Control c, bool e)
+        {
+            if (c.InvokeRequired)
+            {
+                c.Invoke(new UpdateControlDelegate(UpdateControl), new object[] { c, e });
+            }
+            
+            else
+            {
+                c.Enabled = e;
             }
         }
     }
