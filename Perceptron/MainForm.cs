@@ -30,6 +30,7 @@ namespace Classifier
         delegate void UpdateTextboxDelegate(TextBox txt, string s);
         delegate void UpdateControlDelegate(Control c, bool e);
         delegate void ClearListviewDelegate(ListView o);
+        delegate void UpdateListviewDelegate(ListView o, string w, int i, string s);
 
         public MainForm()
         {
@@ -474,7 +475,7 @@ namespace Classifier
         {
             if (o.InvokeRequired)
             {
-                o.InvokeRequired(new UpdateListviewDelegate(UpdateListview), new object[] { o, w, i, s });
+                o.Invoke(new UpdateListviewDelegate(UpdateListview), new object[] { o, w, i, s });
             }
             
             else

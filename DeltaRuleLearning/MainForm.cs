@@ -513,7 +513,7 @@ namespace Classifier
             else
             {
                 item = weightsList.Items.Add(n);
-                item.SubItems.Add(string.Format("Weight {0}", j));
+                item.SubItems.Add(w);
                 item.SubItems.Add(s);
             }
         }

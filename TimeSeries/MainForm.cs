@@ -403,7 +403,7 @@ namespace TimeSeries
             
             for (int j = windowSize, k = 0, n = data.Length; j < n; j++, k++)
             {
-                UpdateDataListView(dataList, j, solution[k, 1].ToString());
+                UpdateListView(dataList, j, solution[k, 1].ToString());
                 //dataList.Items[j].SubItems.Add(solution[k, 1].ToString());
             }
 

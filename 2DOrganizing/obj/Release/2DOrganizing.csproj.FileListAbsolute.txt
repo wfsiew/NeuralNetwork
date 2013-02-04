@@ -8,3 +8,26 @@ E:\vs_Projects\AForge\2DOrganizing\obj\Release\SOMOrganizing.Properties.Resource
 E:\vs_Projects\AForge\2DOrganizing\obj\Release\2DOrganizing.csproj.GenerateResource.Cache
 E:\vs_Projects\AForge\2DOrganizing\obj\Release\SOMOrganizing.exe
 E:\vs_Projects\AForge\2DOrganizing\obj\Release\SOMOrganizing.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\SOMOrganizing.exe.config
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\SOMOrganizing.exe
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\SOMOrganizing.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\AForge.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\mscorlib.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\System.Data.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\System.Transactions.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\System.EnterpriseServices.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\System.Web.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\System.Data.OracleClient.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\AForge.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\normidna.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\normnfc.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\normnfd.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\normnfkc.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\normnfkd.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\bin\Release\System.EnterpriseServices.Wrapper.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\obj\Release\SOMOrganizing.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\obj\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\obj\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\obj\Release\SOMOrganizing.exe
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\2DOrganizing\obj\Release\SOMOrganizing.pdb

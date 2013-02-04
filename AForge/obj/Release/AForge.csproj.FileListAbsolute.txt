@@ -2,3 +2,8 @@ E:\vs_Projects\AForge\AForge\bin\Release\AForge.dll
 E:\vs_Projects\AForge\AForge\bin\Release\AForge.pdb
 E:\vs_Projects\AForge\AForge\obj\Release\AForge.dll
 E:\vs_Projects\AForge\AForge\obj\Release\AForge.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\AForge\bin\Release\AForge.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\AForge\bin\Release\AForge.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\AForge\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\AForge\obj\Release\AForge.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\AForge\obj\Release\AForge.pdb

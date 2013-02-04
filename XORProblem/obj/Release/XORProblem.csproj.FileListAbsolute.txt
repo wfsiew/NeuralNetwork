@@ -8,3 +8,26 @@ E:\vs_Projects\AForge\XORProblem\obj\Release\XORProblem.Properties.Resources.res
 E:\vs_Projects\AForge\XORProblem\obj\Release\XORProblem.csproj.GenerateResource.Cache
 E:\vs_Projects\AForge\XORProblem\obj\Release\XORProblem.exe
 E:\vs_Projects\AForge\XORProblem\obj\Release\XORProblem.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\XORProblem.exe.config
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\XORProblem.exe
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\XORProblem.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\AForge.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\mscorlib.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\System.Data.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\System.Transactions.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\System.EnterpriseServices.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\System.Web.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\System.Data.OracleClient.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\AForge.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\normidna.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\normnfc.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\normnfd.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\normnfkc.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\normnfkd.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\bin\Release\System.EnterpriseServices.Wrapper.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\obj\Release\XORProblem.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\obj\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\obj\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\obj\Release\XORProblem.exe
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\XORProblem\obj\Release\XORProblem.pdb

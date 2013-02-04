@@ -8,3 +8,26 @@ E:\vs_Projects\AForge\Perceptron\obj\Release\Classifier.Properties.Resources.res
 E:\vs_Projects\AForge\Perceptron\obj\Release\Perceptron.csproj.GenerateResource.Cache
 E:\vs_Projects\AForge\Perceptron\obj\Release\Classifier.exe
 E:\vs_Projects\AForge\Perceptron\obj\Release\Classifier.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\obj\Release\Classifier.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\obj\Release\GenerateResource.read.0.tlog
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\obj\Release\GenerateResource.write.0.tlog
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\obj\Release\Classifier.exe
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\Classifier.exe.config
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\Classifier.exe
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\Classifier.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\AForge.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\mscorlib.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\System.Data.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\System.Transactions.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\System.EnterpriseServices.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\System.Web.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\System.Data.OracleClient.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\AForge.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\normidna.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\normnfc.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\normnfd.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\normnfkc.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\normnfkd.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\bin\Release\System.EnterpriseServices.Wrapper.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\Perceptron\obj\Release\Classifier.pdb
