@@ -1,0 +1,24 @@
+E:\vs_Projects\AForge\XORProblem\bin\Debug\XORProblem.exe.config
+E:\vs_Projects\AForge\XORProblem\bin\Debug\XORProblem.exe
+E:\vs_Projects\AForge\XORProblem\bin\Debug\XORProblem.pdb
+E:\vs_Projects\AForge\XORProblem\bin\Debug\AForge.dll
+E:\vs_Projects\AForge\XORProblem\bin\Debug\AForge.pdb
+E:\vs_Projects\AForge\XORProblem\obj\Debug\XORProblem.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\XORProblem\obj\Debug\XORProblem.Properties.Resources.resources
+E:\vs_Projects\AForge\XORProblem\obj\Debug\XORProblem.csproj.GenerateResource.Cache
+E:\vs_Projects\AForge\XORProblem\obj\Debug\XORProblem.exe
+E:\vs_Projects\AForge\XORProblem\obj\Debug\XORProblem.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\XORProblem\obj\Debug\XORProblem.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\Samples\Back Propagation\XORProblem\obj\Debug\XORProblem.Properties.Resources.resources
+E:\vs_Projects\AForge\Samples\Back Propagation\XORProblem\obj\Debug\XORProblem.csproj.GenerateResource.Cache
+E:\vs_Projects\AForge\Samples\Back Propagation\XORProblem\obj\Debug\XORProblem.exe
+E:\vs_Projects\AForge\Samples\Back Propagation\XORProblem\obj\Debug\XORProblem.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\XORProblem\bin\Debug\XORProblem.exe.config
+E:\vs_Projects\AForge\Samples\Back Propagation\XORProblem\bin\Debug\XORProblem.exe
+E:\vs_Projects\AForge\Samples\Back Propagation\XORProblem\bin\Debug\XORProblem.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\XORProblem\bin\Debug\AForge.Controls.dll
+E:\vs_Projects\AForge\Samples\Back Propagation\XORProblem\bin\Debug\AForge.dll
+E:\vs_Projects\AForge\Samples\Back Propagation\XORProblem\bin\Debug\AForge.Neuro.dll
+E:\vs_Projects\AForge\Samples\Back Propagation\XORProblem\bin\Debug\AForge.Controls.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\XORProblem\bin\Debug\AForge.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\XORProblem\bin\Debug\AForge.Neuro.pdb

@@ -1,0 +1,47 @@
+E:\vs_Projects\AForge\OneLayerPerceptron\bin\Release\Classifier.exe.config
+E:\vs_Projects\AForge\OneLayerPerceptron\bin\Release\Classifier.exe
+E:\vs_Projects\AForge\OneLayerPerceptron\bin\Release\Classifier.pdb
+E:\vs_Projects\AForge\OneLayerPerceptron\bin\Release\AForge.dll
+E:\vs_Projects\AForge\OneLayerPerceptron\bin\Release\AForge.pdb
+E:\vs_Projects\AForge\OneLayerPerceptron\obj\Release\OneLayerPerceptron.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\OneLayerPerceptron\obj\Release\Classifier.Properties.Resources.resources
+E:\vs_Projects\AForge\OneLayerPerceptron\obj\Release\OneLayerPerceptron.csproj.GenerateResource.Cache
+E:\vs_Projects\AForge\OneLayerPerceptron\obj\Release\Classifier.exe
+E:\vs_Projects\AForge\OneLayerPerceptron\obj\Release\Classifier.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\Classifier.exe.config
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\Classifier.exe
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\Classifier.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\AForge.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\mscorlib.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\System.Data.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\System.Transactions.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\System.EnterpriseServices.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\System.Web.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\System.Data.OracleClient.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\AForge.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\normidna.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\normnfc.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\normnfd.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\normnfkc.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\normnfkd.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\bin\Release\System.EnterpriseServices.Wrapper.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\obj\Release\Classifier.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\obj\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\obj\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\obj\Release\Classifier.exe
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\OneLayerPerceptron\obj\Release\Classifier.pdb
+E:\vs_Projects\AForge\Samples\Simple\OneLayerPerceptron\bin\Release\Classifier.exe.config
+E:\vs_Projects\AForge\Samples\Simple\OneLayerPerceptron\bin\Release\Classifier.exe
+E:\vs_Projects\AForge\Samples\Simple\OneLayerPerceptron\bin\Release\Classifier.pdb
+E:\vs_Projects\AForge\Samples\Simple\OneLayerPerceptron\bin\Release\AForge.Controls.dll
+E:\vs_Projects\AForge\Samples\Simple\OneLayerPerceptron\bin\Release\AForge.dll
+E:\vs_Projects\AForge\Samples\Simple\OneLayerPerceptron\bin\Release\AForge.Neuro.dll
+E:\vs_Projects\AForge\Samples\Simple\OneLayerPerceptron\bin\Release\AForge.Controls.pdb
+E:\vs_Projects\AForge\Samples\Simple\OneLayerPerceptron\bin\Release\AForge.pdb
+E:\vs_Projects\AForge\Samples\Simple\OneLayerPerceptron\bin\Release\AForge.Neuro.pdb
+E:\vs_Projects\AForge\Samples\Simple\OneLayerPerceptron\obj\Release\OneLayerPerceptron.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\Samples\Simple\OneLayerPerceptron\obj\Release\Classifier.Properties.Resources.resources
+E:\vs_Projects\AForge\Samples\Simple\OneLayerPerceptron\obj\Release\OneLayerPerceptron.csproj.GenerateResource.Cache
+E:\vs_Projects\AForge\Samples\Simple\OneLayerPerceptron\obj\Release\Classifier.exe
+E:\vs_Projects\AForge\Samples\Simple\OneLayerPerceptron\obj\Release\Classifier.pdb

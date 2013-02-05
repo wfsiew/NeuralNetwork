@@ -1,0 +1,14 @@
+E:\vs_Projects\AForge\Controls\bin\Release\AForge.Controls.dll
+E:\vs_Projects\AForge\Controls\bin\Release\AForge.Controls.pdb
+E:\vs_Projects\AForge\Controls\bin\Release\AForge.dll
+E:\vs_Projects\AForge\Controls\bin\Release\AForge.pdb
+E:\vs_Projects\AForge\Controls\obj\Release\Controls.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\Controls\obj\Release\AForge.Controls.dll
+E:\vs_Projects\AForge\Controls\obj\Release\AForge.Controls.pdb
+E:\vs_Projects\AForge\Sources\Controls\bin\Release\AForge.Controls.dll
+E:\vs_Projects\AForge\Sources\Controls\bin\Release\AForge.Controls.pdb
+E:\vs_Projects\AForge\Sources\Controls\bin\Release\AForge.dll
+E:\vs_Projects\AForge\Sources\Controls\bin\Release\AForge.pdb
+E:\vs_Projects\AForge\Sources\Controls\obj\Release\Controls.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\Sources\Controls\obj\Release\AForge.Controls.dll
+E:\vs_Projects\AForge\Sources\Controls\obj\Release\AForge.Controls.pdb

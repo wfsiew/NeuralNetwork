@@ -1,0 +1,24 @@
+E:\vs_Projects\AForge\TimeSeries\bin\Debug\TimeSeries.exe.config
+E:\vs_Projects\AForge\TimeSeries\bin\Debug\TimeSeries.exe
+E:\vs_Projects\AForge\TimeSeries\bin\Debug\TimeSeries.pdb
+E:\vs_Projects\AForge\TimeSeries\bin\Debug\AForge.dll
+E:\vs_Projects\AForge\TimeSeries\bin\Debug\AForge.pdb
+E:\vs_Projects\AForge\TimeSeries\obj\Debug\TimeSeries.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\TimeSeries\obj\Debug\TimeSeries.Properties.Resources.resources
+E:\vs_Projects\AForge\TimeSeries\obj\Debug\TimeSeries.csproj.GenerateResource.Cache
+E:\vs_Projects\AForge\TimeSeries\obj\Debug\TimeSeries.exe
+E:\vs_Projects\AForge\TimeSeries\obj\Debug\TimeSeries.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\obj\Debug\TimeSeries.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\obj\Debug\TimeSeries.Properties.Resources.resources
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\obj\Debug\TimeSeries.csproj.GenerateResource.Cache
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\obj\Debug\TimeSeries.exe
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\obj\Debug\TimeSeries.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Debug\TimeSeries.exe.config
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Debug\TimeSeries.exe
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Debug\TimeSeries.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Debug\AForge.Controls.dll
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Debug\AForge.dll
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Debug\AForge.Neuro.dll
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Debug\AForge.Controls.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Debug\AForge.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Debug\AForge.Neuro.pdb

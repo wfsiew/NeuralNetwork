@@ -1,0 +1,7 @@
+E:\vs_Projects\AForge\Sources\Controls\bin\Debug\AForge.Controls.dll
+E:\vs_Projects\AForge\Sources\Controls\bin\Debug\AForge.Controls.pdb
+E:\vs_Projects\AForge\Sources\Controls\bin\Debug\AForge.dll
+E:\vs_Projects\AForge\Sources\Controls\bin\Debug\AForge.pdb
+E:\vs_Projects\AForge\Sources\Controls\obj\Debug\Controls.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\Sources\Controls\obj\Debug\AForge.Controls.dll
+E:\vs_Projects\AForge\Sources\Controls\obj\Debug\AForge.Controls.pdb

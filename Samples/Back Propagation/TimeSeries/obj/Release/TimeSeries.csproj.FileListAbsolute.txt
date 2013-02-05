@@ -1,0 +1,47 @@
+E:\vs_Projects\AForge\TimeSeries\bin\Release\TimeSeries.exe.config
+E:\vs_Projects\AForge\TimeSeries\bin\Release\TimeSeries.exe
+E:\vs_Projects\AForge\TimeSeries\bin\Release\TimeSeries.pdb
+E:\vs_Projects\AForge\TimeSeries\bin\Release\AForge.dll
+E:\vs_Projects\AForge\TimeSeries\bin\Release\AForge.pdb
+E:\vs_Projects\AForge\TimeSeries\obj\Release\TimeSeries.Properties.Resources.resources
+E:\vs_Projects\AForge\TimeSeries\obj\Release\TimeSeries.csproj.GenerateResource.Cache
+E:\vs_Projects\AForge\TimeSeries\obj\Release\TimeSeries.exe
+E:\vs_Projects\AForge\TimeSeries\obj\Release\TimeSeries.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\obj\Release\TimeSeries.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\obj\Release\GenerateResource.read.0.tlog
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\obj\Release\GenerateResource.write.0.tlog
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\obj\Release\TimeSeries.exe
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\TimeSeries.exe.config
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\TimeSeries.exe
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\TimeSeries.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\AForge.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\mscorlib.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\System.Data.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\System.Transactions.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\System.EnterpriseServices.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\System.Web.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\System.Data.OracleClient.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\AForge.pdb
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\normidna.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\normnfc.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\normnfd.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\normnfkc.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\normnfkd.nlp
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\bin\Release\System.EnterpriseServices.Wrapper.dll
+C:\Documents and Settings\Administrator\My Documents\proj\NeuralNetwork\TimeSeries\obj\Release\TimeSeries.pdb
+E:\vs_Projects\AForge\TimeSeries\obj\Release\TimeSeries.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Release\TimeSeries.exe.config
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Release\TimeSeries.exe
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Release\TimeSeries.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Release\AForge.Controls.dll
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Release\AForge.dll
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Release\AForge.Neuro.dll
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Release\AForge.Controls.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Release\AForge.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\bin\Release\AForge.Neuro.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\obj\Release\TimeSeries.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\obj\Release\TimeSeries.Properties.Resources.resources
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\obj\Release\TimeSeries.csproj.GenerateResource.Cache
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\obj\Release\TimeSeries.exe
+E:\vs_Projects\AForge\Samples\Back Propagation\TimeSeries\obj\Release\TimeSeries.pdb

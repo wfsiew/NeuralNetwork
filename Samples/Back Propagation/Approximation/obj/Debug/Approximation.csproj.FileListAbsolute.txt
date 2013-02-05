@@ -1,0 +1,24 @@
+E:\vs_Projects\AForge\Approximation\bin\Debug\Approximation.exe.config
+E:\vs_Projects\AForge\Approximation\bin\Debug\Approximation.exe
+E:\vs_Projects\AForge\Approximation\bin\Debug\Approximation.pdb
+E:\vs_Projects\AForge\Approximation\bin\Debug\AForge.dll
+E:\vs_Projects\AForge\Approximation\bin\Debug\AForge.pdb
+E:\vs_Projects\AForge\Approximation\obj\Debug\Approximation.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\Approximation\obj\Debug\Approximation.Properties.Resources.resources
+E:\vs_Projects\AForge\Approximation\obj\Debug\Approximation.csproj.GenerateResource.Cache
+E:\vs_Projects\AForge\Approximation\obj\Debug\Approximation.exe
+E:\vs_Projects\AForge\Approximation\obj\Debug\Approximation.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\Approximation\obj\Debug\Approximation.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\Samples\Back Propagation\Approximation\obj\Debug\Approximation.Properties.Resources.resources
+E:\vs_Projects\AForge\Samples\Back Propagation\Approximation\obj\Debug\Approximation.csproj.GenerateResource.Cache
+E:\vs_Projects\AForge\Samples\Back Propagation\Approximation\obj\Debug\Approximation.exe
+E:\vs_Projects\AForge\Samples\Back Propagation\Approximation\obj\Debug\Approximation.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\Approximation\bin\Debug\Approximation.exe.config
+E:\vs_Projects\AForge\Samples\Back Propagation\Approximation\bin\Debug\Approximation.exe
+E:\vs_Projects\AForge\Samples\Back Propagation\Approximation\bin\Debug\Approximation.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\Approximation\bin\Debug\AForge.Controls.dll
+E:\vs_Projects\AForge\Samples\Back Propagation\Approximation\bin\Debug\AForge.dll
+E:\vs_Projects\AForge\Samples\Back Propagation\Approximation\bin\Debug\AForge.Neuro.dll
+E:\vs_Projects\AForge\Samples\Back Propagation\Approximation\bin\Debug\AForge.Controls.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\Approximation\bin\Debug\AForge.pdb
+E:\vs_Projects\AForge\Samples\Back Propagation\Approximation\bin\Debug\AForge.Neuro.pdb

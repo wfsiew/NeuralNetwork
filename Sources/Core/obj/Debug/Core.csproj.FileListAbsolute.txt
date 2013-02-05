@@ -1,0 +1,4 @@
+E:\vs_Projects\AForge\Sources\Core\bin\Debug\AForge.dll
+E:\vs_Projects\AForge\Sources\Core\bin\Debug\AForge.pdb
+E:\vs_Projects\AForge\Sources\Core\obj\Debug\AForge.dll
+E:\vs_Projects\AForge\Sources\Core\obj\Debug\AForge.pdb

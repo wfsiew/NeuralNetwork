@@ -1,0 +1,14 @@
+E:\vs_Projects\AForge\Neuro\obj\Release\Neuro.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\Neuro\bin\Release\AForge.Neuro.dll
+E:\vs_Projects\AForge\Neuro\bin\Release\AForge.Neuro.pdb
+E:\vs_Projects\AForge\Neuro\bin\Release\AForge.dll
+E:\vs_Projects\AForge\Neuro\bin\Release\AForge.pdb
+E:\vs_Projects\AForge\Neuro\obj\Release\AForge.Neuro.dll
+E:\vs_Projects\AForge\Neuro\obj\Release\AForge.Neuro.pdb
+E:\vs_Projects\AForge\Sources\Neuro\bin\Release\AForge.Neuro.dll
+E:\vs_Projects\AForge\Sources\Neuro\bin\Release\AForge.Neuro.pdb
+E:\vs_Projects\AForge\Sources\Neuro\bin\Release\AForge.dll
+E:\vs_Projects\AForge\Sources\Neuro\bin\Release\AForge.pdb
+E:\vs_Projects\AForge\Sources\Neuro\obj\Release\Neuro.csprojResolveAssemblyReference.cache
+E:\vs_Projects\AForge\Sources\Neuro\obj\Release\AForge.Neuro.dll
+E:\vs_Projects\AForge\Sources\Neuro\obj\Release\AForge.Neuro.pdb
