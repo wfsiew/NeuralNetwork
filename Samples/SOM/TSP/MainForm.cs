@@ -26,9 +26,6 @@ namespace TSP
 
         private Thread workerThread = null;
         private bool needToStop = false;
-        
-        delegate void UpdateTextboxDelegate(TextBox txt, string s);
-        delegate void UpdateControlDelegate(Control c, bool e);
 
         public MainForm()
         {
@@ -249,7 +246,7 @@ namespace TSP
         {
             if (txt.InvokeRequired)
             {
-                txt.Invoke(new UpdateTextboxDelegate(UpdateTextbox), new object[] { txt, s });
+                txt.Invoke(new Action<TextBox, string>(UpdateTextbox), new object[] { txt, s });
             }
 
             else
@@ -262,7 +259,7 @@ namespace TSP
         {
             if (c.InvokeRequired)
             {
-                c.Invoke(new UpdateControlDelegate(UpdateControl), new object[] { c, e });
+                c.Invoke(new Action<Control, bool>(UpdateControl), new object[] { c, e });
             }
             
             else

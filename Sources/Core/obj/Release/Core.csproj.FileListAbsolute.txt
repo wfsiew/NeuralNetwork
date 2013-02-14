@@ -6,4 +6,3 @@ E:\vs_Projects\AForge\Sources\Core\bin\Release\AForge.dll
 E:\vs_Projects\AForge\Sources\Core\bin\Release\AForge.pdb
 E:\vs_Projects\AForge\Sources\Core\obj\Release\AForge.dll
 E:\vs_Projects\AForge\Sources\Core\obj\Release\AForge.pdb
-E:\vs_Projects\AForge\Sources\Core\obj\Release\Core.csprojResolveAssemblyReference.cache

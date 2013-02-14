@@ -34,11 +34,6 @@ namespace Classifier
 
         private Thread workerThread = null;
         private bool needToStop = false;
-        
-        delegate void UpdateTextboxDelegate(TextBox txt, string s);
-        delegate void UpdateControlDelegate(Control c, bool e);
-        delegate void ClearListviewDelegate(ListView o);
-        delegate void UpdateListviewDelegate(ListView o, string n, string w, string s);
 
         public MainForm()
         {
@@ -466,7 +461,7 @@ namespace Classifier
         {
             if (txt.InvokeRequired)
             {
-                txt.Invoke(new UpdateTextboxDelegate(UpdateTextbox), new object[] { txt, s });
+                txt.Invoke(new Action<TextBox, string>(UpdateTextbox), new object[] { txt, s });
             }
 
             else
@@ -479,7 +474,7 @@ namespace Classifier
         {
             if (c.InvokeRequired)
             {
-                c.Invoke(new UpdateControlDelegate(UpdateControl), new object[] { c, e });
+                c.Invoke(new Action<Control, bool>(UpdateControl), new object[] { c, e });
             }
             
             else
@@ -492,7 +487,7 @@ namespace Classifier
         {
             if (o.InvokeRequired)
             {
-                o.Invoke(new ClearListviewDelegate(ClearListview), new object[] { o });
+                o.Invoke(new Action<ListView>(ClearListview), new object[] { o });
             }
             
             else
@@ -507,7 +502,7 @@ namespace Classifier
             
             if (o.InvokeRequired)
             {
-                o.Invoke(new UpdateListviewDelegate(UpdateListview), new object[] { o, n, w, s });
+                o.Invoke(new Action<ListView, string, string, string>(UpdateListview), new object[] { o, n, w, s });
             }
             
             else

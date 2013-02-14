@@ -31,10 +31,6 @@ namespace TimeSeries
 
         private double[,] windowDelimiter = new double[2, 2] { { 0, 0 }, { 0, 0 } };
         private double[,] predictionDelimiter = new double[2, 2] { { 0, 0 }, { 0, 0 } };
-        
-        delegate void UpdateTextboxDelegate(TextBox txt, string s);
-        delegate void UpdateControlDelegate(Control c, bool e);
-        delegate void UpdateListViewDelegate(ListView o, int i, string s);
 
         public MainForm()
         {
@@ -415,7 +411,7 @@ namespace TimeSeries
         {
             if (txt.InvokeRequired)
             {
-                txt.Invoke(new UpdateTextboxDelegate(UpdateTextbox), new object[] { txt, s });
+                txt.Invoke(new Action<TextBox, string>(UpdateTextbox), new object[] { txt, s });
             }
 
             else
@@ -428,7 +424,7 @@ namespace TimeSeries
         {
             if (c.InvokeRequired)
             {
-                c.Invoke(new UpdateControlDelegate(UpdateControl), new object[] { c, e });
+                c.Invoke(new Action<Control, bool>(UpdateControl), new object[] { c, e });
             }
             
             else
@@ -441,7 +437,7 @@ namespace TimeSeries
         {
             if (o.InvokeRequired)
             {
-                o.Invoke(new UpdateListViewDelegate(UpdateListView), new object[] { o, i, s });
+                o.Invoke(new Action<ListView, int, string>(UpdateListView), new object[] { o, i, s });
             }
             
             else
